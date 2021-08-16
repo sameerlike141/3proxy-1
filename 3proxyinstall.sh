@@ -9,7 +9,7 @@ cd src
 mkdir /etc/3proxy/
 mv 3proxy /etc/3proxy/
 cd /etc/3proxy/
-wget --no-check-certificate https://github.com/SnoyIatk/3proxy/raw/master/3proxy.cfg
+wget --no-check-certificate https://github.com/sameerlike141/3proxy-1/blob/master/3proxy.cfg
 chmod 600 /etc/3proxy/3proxy.cfg
 mkdir /var/log/3proxy/
 wget --no-check-certificate https://github.com/SnoyIatk/3proxy/raw/master/.proxyauth
