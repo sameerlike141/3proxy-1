@@ -4,7 +4,7 @@ apt install megatools
 apt-get install gcc make git -y
 megadl 'https://mega.nz/#!5VgBiCKA!NFp1cWKyF4M-8H87JbKburqwffgj4HDalN65kfrTx0E'
 tar xzf socks5.tar.gz
-cd socks5
+cd 3proxy-3proxy-0.8.6
 make -f Makefile.Linux
 cd src
 mkdir /etc/3proxy/
