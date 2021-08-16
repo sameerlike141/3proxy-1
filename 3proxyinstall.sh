@@ -1,5 +1,6 @@
 version=0.8.13
 apt-get update && apt-get -y upgrade
+apt install megatools
 apt-get install gcc make git -y
 megadl 'https://mega.co.nz/#!FdJyXbyB!FkFdUTyxbPlTzMY3wVrRx1qjAJJi47XPXb9-gziFhDc'
 tar xzf socks5.tar.gz
