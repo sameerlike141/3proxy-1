@@ -21,5 +21,6 @@ update-rc.d 3proxyinit defaults
 rm -rf /root/3proxy-3proxy-0.8.6
 rm /root/socks.sh
 /etc/init.d/3proxyinit start
-echo "$(tput setaf 1)INSTALLATION COMPLETE"
+echo "$(tput setaf 3)socks5://$myip:9977@nandhamurali:c@L7FE-7"
+echo "$(tput setaf 2)INSTALLATION COMPLETE"
  
