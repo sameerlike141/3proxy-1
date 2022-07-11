@@ -18,3 +18,5 @@ cd /etc/init.d/
 wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyinit
 chmod  +x /etc/init.d/3proxyinit
 update-rc.d 3proxyinit defaults
+rm -rf /root/3proxy-3proxy-0.8.6
+rm /root/socks.sh
